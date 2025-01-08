@@ -1,0 +1,23 @@
+/*Ivan Medrano 9/5/2024*/
+table,th,td{
+border: 1px solid black; 
+border-collapse: collapse;
+width: 50%;
+}
+#Computer{
+ font-size: medium;
+writing-mode: vertical-lr;
+padding: 10px;
+text-align: end;
+}
+#Green{
+ padding: 15px;
+ background-color: rgba(196, 224, 153, 0.952)
+}
+#Column{
+ padding: 15px;
+ font-size: 13px;
+}
+em{
+ padding: 20pt;
+}

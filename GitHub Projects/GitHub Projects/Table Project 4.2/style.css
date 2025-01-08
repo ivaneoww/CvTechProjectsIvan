@@ -1,0 +1,12 @@
+table,th,td{
+ border: 1px solid black;
+border-collapse: collapse;
+width: 50%;
+}
+#Grey{
+ background-color: gray;
+}
+td{
+ font-size: 12px;
+}
+/*Ivan Medrano 9/5/2024

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Odd or Even</title>
+</head>
+<body>
+ <h1>Is it Odd or Even??</h1>
+ <form method="post" action="">
+  <input type="number" name="" placeholder="Type Number Here!" id="number">
+  <br>
+  <button type="submit" onclick="odd_even()">Click Here!</button>
+ </form>
+ <p id="even"></p>
+</body>
+</html>
+<script>
+ function odd_even() {
+  var a;
+  a = Number(document.getElementById("number").value);
+  if (a % 2 == 0) {
+   document.write("Even Number!");
+  }
+  else {
+   document.write("Odd Number!");
+  }
+ }
+</script>
